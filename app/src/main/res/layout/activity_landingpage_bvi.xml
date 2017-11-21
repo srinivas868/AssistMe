@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amc.akhil.myapplication_1.MainActivity_1">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="BVI Mode"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="252dp"
+        android:layout_height="58dp"
+        android:text="Request for Drop Off"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="Need Assistance"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="254dp"
+        android:layout_height="58dp"
+        android:text="Emergency"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+
+</android.support.constraint.ConstraintLayout>
