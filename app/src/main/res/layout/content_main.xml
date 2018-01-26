@@ -6,6 +6,18 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="ffff"
+        android:text="Hello"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/black_color"
+        android:textSize="18sp" />
+
     <ScrollView
         android:id="@+id/features_form"
         android:layout_width="match_parent"
@@ -25,6 +37,7 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
                 android:background="@drawable/login_btn"
                 android:text="Request For Drop Off"
                 android:textColor="@color/white_color" />
@@ -34,7 +47,7 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/login_btn"
                 android:text="Need Assistance"
                 android:textColor="@color/white_color" />
@@ -44,11 +57,32 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/login_btn"
                 android:text="Emergency"
                 android:textColor="@color/white_color" />
+
+            <Button
+                android:id="@+id/exit"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login_btn"
+                android:text="Exit "
+                android:textColor="@color/white_color" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="20dp"
+                android:text="Logout"
+                android:visibility="visible" />
+
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>
